@@ -3,9 +3,12 @@ using namespace std;
 int main()
 {
     int s;
+    cout << "Using Size: ";
     cin >> s;
 
     vector<int> v;
+
+    cout << "Before Reverse: ";
 
     while (s--)
     {
@@ -15,6 +18,8 @@ int main()
 
         v.push_back(e);
     }
+
+    cout << "After Reverse: ";
 
     reverse(v.begin(), v.end());
 
