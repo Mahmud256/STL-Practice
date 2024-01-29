@@ -34,7 +34,7 @@ int main()
 
     merge(v1.begin(), v1.end(), v2.begin(), v2.end(), m.begin());
 
-    cout <<"After Merge or Concatenation: ";
+    cout << "After Merge or Concatenation: ";
     for (int i = 0; i < m.size(); i++)
     {
         cout << m[i] << " ";
